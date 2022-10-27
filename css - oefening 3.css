@@ -1,0 +1,35 @@
+*{
+    font-family: cinzel, "natanael gama", "Times New Roman", serif;
+    font-size: 1.1rem;
+    padding-left: 5px;
+    color: #0a0f4b;
+}
+img{
+    height: 300px;
+    margin: 40px;
+}
+table{
+    border: 3px solid black;
+    width: 750px;
+    margin: 10px;
+    border-collapse: collapse;
+    background-color: #fda23c;
+}
+table td, table th{
+    border: 1px solid black;
+}
+table tr td:first-child{
+    width: 400px;
+    height: 35px;
+}
+table tr td.a{
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+table th{
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 2rem;
+}
+

@@ -1,0 +1,21 @@
+*{
+    font-family: "Times New Roman",serif;
+}
+img {
+    width: 150px;
+}
+table{
+    border: 1px solid black;
+    width: 500px;
+    table-layout: fixed;
+}
+table tbody tr td:first-child{
+    font-weight: bold;
+}
+table tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
+table tr td:first-child {
+    border: none;
+}

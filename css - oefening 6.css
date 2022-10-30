@@ -10,8 +10,9 @@ header{
     color: white;
     padding: 20px;
 }
-#logo{
+main{
     margin: 40px;
+    width: 90%;
 }
 #logo table{
     border: 1px solid black;
@@ -35,4 +36,30 @@ header{
 }
 #logo table tr:last-child td{
     background-color: #2E6DB4;
+}
+#console img{
+    width: 100%;
+}
+#console table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50%;
+}
+#console table thead th{
+    background-color: #F3C300;
+    padding: 15px;
+    border: 1px solid black;
+}
+#console table tbody tr.left td{
+    border: 1px solid black;
+    padding: 5px;
+}
+#console table tbody tr.middle td{
+    border: 1px solid black;
+    padding: 5px;
+}
+#console table tbody tr.right td{
+    border: 1px solid black;
+    padding: 5px;
 }

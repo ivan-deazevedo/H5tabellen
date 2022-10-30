@@ -5,11 +5,19 @@ table img{
     width: 200px;
     padding: 40px;
 }
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#logo{
+    margin: 40px;
+}
 #logo table{
     border: 1px solid black;
     border-collapse: collapse;
     table-layout: fixed;
-    width: 750px;
+    width: 100%;
     text-align: center;
 }
 #logo table tr td{

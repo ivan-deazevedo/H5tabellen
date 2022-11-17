@@ -1,33 +1,35 @@
-*{
+* {
     font-family: Arial, Verdana, sans-serif;
     font-size: 0.9rem;
-    color:white;
+    color: white;
 }
-table{
+
+table {
     border: 1px solid black;
     width: 700px;
     table-layout: fixed;
     text-align: center;
     border-collapse: collapse;
 }
-table td{
+
+table td, th {
     border: 1px solid black;
-    padding: 7px;
+    padding: 10px;
 }
-table thead{
-    background-color:#142942;
+
+table thead, tfoot {
+    background-color: #142942;
     font-weight: bold;
 }
-table tfoot{
-    background-color:#142942;
-    font-weight: bold;
+
+table tbody tr.a {
+    background-color: #90BAE3;
 }
-table tbody tr.a{
-    background-color:#90BAE3;
+
+table tbody tr.b {
+    background-color: #6C9BDC;
 }
-table tbody tr.b{
-    background-color:#6C9BDC;
-}
-table tbody tr td:first-child{
+
+table tbody tr td:first-child {
     font-weight: bold;
 }
